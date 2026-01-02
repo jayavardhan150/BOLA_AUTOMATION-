@@ -5,5 +5,5 @@
 ##  Usage
 
 ```bash
-python3 phase1.py     # Find vulns
-python3 phase2.py userlist2  # Attack
+python3 bola_verification.py     # Find vulns
+python3 bola_crud.py VULN_ENDPOINT_NAME  # Attack
