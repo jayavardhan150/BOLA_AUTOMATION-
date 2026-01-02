@@ -1,7 +1,9 @@
-# BOLA_AUTOMATION 
-This script is used for performing bola_automation testing 
-we will be using 2 scripts here 
-we can add all the types of api end points in the script and perform automation on them 
-//python3 bola_verification.py //
-once we find out the vulnerable end point we will perform CRUD operations on that vulnerable endpoints 
-//python3 bola_crud.py//
+# BOLA Automation
+
+**Python scripts for performing BOLA vulnerability testing. Using these scripts we will find all types of points in the API and perform CRUD operations on vulnerable endpoints (phase1_bola_verification.py / once we find the vulnerable end point we will perform CRUD operations)**
+
+##  Usage
+
+```bash
+python3 phase1.py     # Find vulns
+python3 phase2.py userlist2  # Attack
